@@ -1,0 +1,12 @@
+{
+  "slug": "gemini",
+  "name": "Google Gemini",
+  "version": "1.0.0",
+  "type": "agent",
+  "description": "Google Gemini AI agent via Generative AI API",
+  "icon": "✨",
+  "configSchema": {
+    "apiKey": { "type": "string", "label": "API Key", "required": true, "secret": true },
+    "model": { "type": "select", "label": "Model", "options": ["gemini-2.0-flash", "gemini-1.5-pro"], "default": "gemini-2.0-flash" }
+  }
+}

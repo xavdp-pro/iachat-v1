@@ -1,0 +1,13 @@
+{
+  "slug": "google-tts",
+  "name": "Google Text-to-Speech",
+  "version": "1.0.0",
+  "type": "tts",
+  "description": "Google Cloud TTS — natural voices, multi-language",
+  "icon": "🔊",
+  "configSchema": {
+    "apiKey": { "type": "string", "label": "API Key", "required": true, "secret": true },
+    "voice": { "type": "string", "label": "Voice name", "default": "fr-FR-Neural2-A" },
+    "language": { "type": "select", "label": "Language", "options": ["fr-FR", "en-US", "es-ES"], "default": "fr-FR" }
+  }
+}

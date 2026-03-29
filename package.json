@@ -1,0 +1,47 @@
+{
+  "name": "iachat-v1",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "concurrently \"vite --port 7597\" \"node --watch --watch-path=./server server/index.js\"",
+    "dev:api": "node --watch --watch-path=./server server/index.js",
+    "build": "vite build",
+    "lint": "eslint .",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@qdrant/js-client-rest": "^1.17.0",
+    "@tailwindcss/vite": "^4.2.2",
+    "axios": "^1.14.0",
+    "bcryptjs": "^3.0.3",
+    "cors": "^2.8.6",
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1",
+    "framer-motion": "^12.38.0",
+    "i18next": "^26.0.1",
+    "jsonwebtoken": "^9.0.3",
+    "lucide-react": "^1.7.0",
+    "multer": "^2.1.1",
+    "mysql2": "^3.20.0",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4",
+    "react-i18next": "^17.0.1",
+    "react-router-dom": "^7.13.2",
+    "tailwindcss": "^4.2.2",
+    "uuid": "^13.0.0",
+    "zustand": "^5.0.12"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.39.4",
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
+    "@vitejs/plugin-react": "^6.0.1",
+    "concurrently": "^9.2.1",
+    "eslint": "^9.39.4",
+    "eslint-plugin-react-hooks": "^7.0.1",
+    "eslint-plugin-react-refresh": "^0.5.2",
+    "globals": "^17.4.0",
+    "vite": "^8.0.1"
+  }
+}

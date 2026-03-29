@@ -1,0 +1,9 @@
+{
+  "name": "Default",
+  "slug": "default",
+  "author": "iachat",
+  "version": "1.0.0",
+  "description": "Default dark/light theme for iachat",
+  "preview": "assets/preview.png",
+  "darkMode": true
+}

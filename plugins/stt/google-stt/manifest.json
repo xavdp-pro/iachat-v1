@@ -1,0 +1,12 @@
+{
+  "slug": "google-stt",
+  "name": "Google Speech-to-Text",
+  "version": "1.0.0",
+  "type": "stt",
+  "description": "Google Cloud Speech-to-Text — high accuracy, multi-language",
+  "icon": "🎙️",
+  "configSchema": {
+    "apiKey": { "type": "string", "label": "API Key", "required": true, "secret": true },
+    "language": { "type": "select", "label": "Language", "options": ["fr-FR", "en-US", "es-ES"], "default": "fr-FR" }
+  }
+}
